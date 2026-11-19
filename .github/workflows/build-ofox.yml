@@ -14,19 +14,19 @@ on:
       DEVICE_TREE:
         description: 'Custom Recovery Tree'
         required: true
-        default: 'https://github.com/Kyros70/android_device_infinix_x6525_recovery'
+        default: 'https://github.com/Kyros70/android_device_infinix_x6528_recovery'
       DEVICE_TREE_BRANCH:
         description: 'Custom Recovery Tree Branch (use master if default)'
         required: true
-        default: 'OFOX'
+        default: 'OFRP'
       DEVICE_NAME:
         description: 'Specify your Device Codename' # As is, just like your PRODUCT_DEVICE in your device tree.
         required: true
-        default: 'X6525'
+        default: 'X6528'
       DEVICE_PATH:
         description: 'Specify your Device Path (Check the DEVICE_PATH in BoardConfig.mk)' # As is, just like your DEVICE_PATH in your BoardConfig.mk
         required: true
-        default: 'device/infinix/X6525'
+        default: 'device/infinix/X6528'
       BUILD_TARGET:
         description: 'Specify your Build Target' # The image suffix will be added later in build step.
         required: true
@@ -152,13 +152,13 @@ jobs:
         body: |
           OrangeFox Recovery Project 
 
-          For Infinix Smart 8 X6525
+          For Infinix HOT 40i X6528
 
           Changelogs:
           ?
 
           Bugs: 
-          > Decryption 
+          > Lockscreen Decryption 
 
           ## Flash in vendor_boot partition with fastboot.
 
