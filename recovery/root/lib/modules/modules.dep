@@ -36,7 +36,7 @@
 /lib/modules/rtc-sc27xx.ko:
 /lib/modules/audio-dsp-dump.ko: /lib/modules/audio_sipc.ko /lib/modules/audio_mem.ko /lib/modules/agdsp_access.ko /lib/modules/sipc-core.ko /lib/modules/unisoc-mailbox.ko /lib/modules/sprd_power_manager.ko
 /lib/modules/sc27xx-poweroff.ko:
-/lib/modules/tran_charger.ko: /lib/modules/sprd-charger-manager.ko /lib/modules/sprd_battery_info.ko /lib/modules/extcon-usb-gpio.ko /lib/modules/sc27xx_typec.ko /lib/modules/sprd_tcpm.ko /lib/modules/switch_class.ko /lib/modules/phy-sprd-commonphy.ko
+/lib/modules/tran_charger.ko: /lib/modules/sprd-charger-manager.ko /lib/modules/sprd_battery_info.ko /lib/modules/transsion_trancare.ko /lib/modules/extcon-usb-gpio.ko /lib/modules/sc27xx_typec.ko /lib/modules/sprd_tcpm.ko /lib/modules/switch_class.ko /lib/modules/phy-sprd-commonphy.ko
 /lib/modules/audio-pipe.ko: /lib/modules/audio_sipc.ko /lib/modules/audio_mem.ko /lib/modules/agdsp_access.ko /lib/modules/sipc-core.ko /lib/modules/unisoc-mailbox.ko /lib/modules/sprd_power_manager.ko
 /lib/modules/sprd-cpufreq-v2.ko: /lib/modules/sprd_sip_svc.ko
 /lib/modules/aes-neon-blk.ko:
@@ -66,6 +66,7 @@
 /lib/modules/sprd_soc_id.ko:
 /lib/modules/spi-sprd-adi.ko:
 /lib/modules/leds-sc27xx-bltc.ko:
+/lib/modules/sc76930_charger.ko: /lib/modules/sprd_battery_info.ko
 /lib/modules/sprd_pdbg.ko: /lib/modules/sprd_sip_svc.ko
 /lib/modules/sprd-sc27xx-spi.ko:
 /lib/modules/ufs-sprd_qogirl6.ko: /lib/modules/rpmb.ko /lib/modules/sprd_soc_id.ko
@@ -80,6 +81,7 @@
 /lib/modules/snd-soc-sprd-dummy-codec.ko:
 /lib/modules/ion_cma_heap.ko: /lib/modules/ion_ipc_trusty.ko /lib/modules/trusty-ipc.ko
 /lib/modules/ums9230-clk.ko: /lib/modules/clk-sprd.ko
+/lib/modules/tran_gesture.ko:
 /lib/modules/ghash-ce.ko:
 /lib/modules/sprd_camsys_pw_domain.ko:
 /lib/modules/sprd-drm.ko: /lib/modules/trusty-ipc.ko /lib/modules/tran_hwinfo.ko /lib/modules/ufs-sprd_qogirl6.ko /lib/modules/rpmb.ko /lib/modules/sdhci-sprd.ko /lib/modules/mmc_hsq.ko /lib/modules/mmc_swcq.ko /lib/modules/sprd-gsp.ko /lib/modules/apsys-dvfs.ko /lib/modules/sprd_soc_id.ko /lib/modules/unisoc-iommu.ko /lib/modules/trusty.ko
@@ -91,7 +93,6 @@
 /lib/modules/microarray_fp.ko:
 /lib/modules/fpc_fp.ko: /lib/modules/sprd-drm.ko /lib/modules/trusty-ipc.ko /lib/modules/tran_hwinfo.ko /lib/modules/ufs-sprd_qogirl6.ko /lib/modules/rpmb.ko /lib/modules/sdhci-sprd.ko /lib/modules/mmc_hsq.ko /lib/modules/mmc_swcq.ko /lib/modules/sprd-gsp.ko /lib/modules/apsys-dvfs.ko /lib/modules/sprd_soc_id.ko /lib/modules/unisoc-iommu.ko /lib/modules/trusty.ko
 /lib/modules/sbuf_bridge.ko: /lib/modules/sipc-core.ko /lib/modules/unisoc-mailbox.ko /lib/modules/sprd_power_manager.ko
-/lib/modules/aw32257_charger.ko:
 /lib/modules/vsp.ko: /lib/modules/sprd_camsys_pw_domain.ko /lib/modules/apsys-dvfs.ko /lib/modules/sprd_soc_id.ko /lib/modules/unisoc-iommu.ko
 /lib/modules/was4780d.ko:
 /lib/modules/trusty-ipc.ko:
@@ -110,7 +111,7 @@
 /lib/modules/misc_sprd_uid.ko:
 /lib/modules/sipx.ko: /lib/modules/sipc-core.ko /lib/modules/unisoc-mailbox.ko /lib/modules/sprd_power_manager.ko
 /lib/modules/modules_interface.ko:
-/lib/modules/sprd-charger-manager.ko: /lib/modules/sprd_battery_info.ko /lib/modules/sprd_tcpm.ko
+/lib/modules/sprd-charger-manager.ko: /lib/modules/sprd_battery_info.ko /lib/modules/transsion_trancare.ko /lib/modules/sprd_tcpm.ko
 /lib/modules/mmc_hsq.ko:
 /lib/modules/core.ko:
 /lib/modules/musb_hdrc.ko:
@@ -132,7 +133,7 @@
 /lib/modules/tran_hwinfo.ko: /lib/modules/ufs-sprd_qogirl6.ko /lib/modules/rpmb.ko /lib/modules/sdhci-sprd.ko /lib/modules/mmc_hsq.ko /lib/modules/mmc_swcq.ko /lib/modules/sprd_soc_id.ko
 /lib/modules/sprd_time_sync.ko: /lib/modules/sprd_systimer.ko
 /lib/modules/sprd-bc1p2.ko:
-/lib/modules/sc27xx_fuel_gauge.ko: /lib/modules/sprd-charger-manager.ko /lib/modules/sprd_battery_info.ko /lib/modules/sprd_tcpm.ko
+/lib/modules/sc27xx_fuel_gauge.ko: /lib/modules/sprd-charger-manager.ko /lib/modules/sprd_battery_info.ko /lib/modules/transsion_trancare.ko /lib/modules/sprd_tcpm.ko
 /lib/modules/sipc-core.ko: /lib/modules/unisoc-mailbox.ko /lib/modules/sprd_power_manager.ko
 /lib/modules/snd-soc-sprd-vbc-fe.ko: /lib/modules/snd-soc-sprd-vbc-v4.ko /lib/modules/mcdt_hw_r2p0.ko /lib/modules/snd-soc-sprd-card.ko /lib/modules/audio_sipc.ko /lib/modules/audio_mem.ko /lib/modules/agdsp_access.ko /lib/modules/sipc-core.ko /lib/modules/unisoc-mailbox.ko /lib/modules/sprd_power_manager.ko
 /lib/modules/trusty-irq.ko: /lib/modules/trusty.ko

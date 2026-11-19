@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 
-DEVICE_PATH := device/infinix/X6525
+DEVICE_PATH := device/infinix/X6528
 
 # For building with minimal manifest
 ALLOW_MISSING_DEPENDENCIES := true
@@ -35,7 +35,7 @@ BOARD_MOVE_GSI_AVB_KEYS_TO_VENDOR_BOOT := true
 BOARD_RAMDISK_USE_LZ4 := true
 
 # Assert
-TARGET_OTA_ASSERT_DEVICE := Infinix-X6525
+TARGET_OTA_ASSERT_DEVICE := Infinix-X6528
 
 
 # System as root
@@ -57,7 +57,7 @@ TARGET_2ND_CPU_VARIANT := generic
 TARGET_2ND_CPU_VARIANT_RUNTIME := cortex-a55
 
 # Bootloader
-TARGET_BOOTLOADER_BOARD_NAME := Infinix-X6525
+TARGET_BOOTLOADER_BOARD_NAME := Infinix-X6528
 TARGET_NO_BOOTLOADER := true
 BOARD_KERNEL_IMAGE_NAME = Image
 
@@ -148,6 +148,7 @@ PLATFORM_VERSION_LAST_STABLE := $(PLATFORM_VERSION)
 # TWRP Configuration
 TW_THEME := portrait_hdpi
 TW_EXTRA_LANGUAGES := true
+TW_NO_SCREEN_BLANK := true
 TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true

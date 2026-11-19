@@ -114,7 +114,7 @@ musb_hdrc.ko
 musb_sprd.ko
 sprd_battery_info.ko
 sc27xx_fuel_gauge.ko
-aw32257_charger.ko
+sc76930_charger.ko
 tran_charger.ko
 sprd-charger-manager.ko
 misc_sprd_uid.ko
@@ -147,6 +147,7 @@ aw87xxxpa.ko
 sprd-dmaengine-pcm.ko
 sprd-compr-2stage-dma.ko
 snd-soc-sprd-card.ko
+tran_gesture.ko
 fortsense_fp.ko
 goodix_fp.ko
 fpsensor_fp.ko

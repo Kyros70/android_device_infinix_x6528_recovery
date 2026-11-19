@@ -2,7 +2,7 @@
 
 echo "Starting build"
 
-add_lunch_combo twrp_X6525-eng
+add_lunch_combo twrp_X6528-eng
 
 export FOX_AB_DEVICE=1
 export TW_DEFAULT_LANGUAGE="en"
@@ -33,3 +33,4 @@ export OF_NO_REFLASH_CURRENT_ORANGEFOX=1
 export FOX_VENDOR_BOOT_RECOVERY=1
 export OF_USE_GREEN_LED=0
 export OF_ENABLE_LPTOOLS=1
+export FOX_NO_BLANK_DT2W=1

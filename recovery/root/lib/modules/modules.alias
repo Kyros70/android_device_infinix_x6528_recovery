@@ -204,6 +204,9 @@ alias of:N*T*Csprd,sc2721-bltc leds_sc27xx_bltc
 alias of:N*T*Csprd,sc2721-bltcC* leds_sc27xx_bltc
 alias of:N*T*Csprd,ump9620-bltc leds_sc27xx_bltc
 alias of:N*T*Csprd,ump9620-bltcC* leds_sc27xx_bltc
+alias i2c:sc76930_chg sc76930_charger
+alias of:N*T*Csc76930_chg sc76930_charger
+alias of:N*T*Csc76930_chgC* sc76930_charger
 alias of:N*T*Csprd,debuglog sprd_pdbg
 alias of:N*T*Csprd,debuglogC* sprd_pdbg
 alias of:N*T*Csprd,sc2731 sprd_sc27xx_spi
@@ -270,9 +273,6 @@ alias of:N*T*Cmicroarray,afs121C* microarray_fp
 alias fingerprint:fpc-drivers fpc_fp
 alias of:N*T*Cfpc,fpc1553 fpc_fp
 alias of:N*T*Cfpc,fpc1553C* fpc_fp
-alias i2c:aw32257 aw32257_charger
-alias of:N*T*Cawinic,aw32257 aw32257_charger
-alias of:N*T*Cawinic,aw32257C* aw32257_charger
 alias of:N*T*Csprd,sc27xx-syscon sprd_pmic_syscon
 alias of:N*T*Csprd,sc27xx-sysconC* sprd_pmic_syscon
 alias of:N*T*Csprd,ump962x-syscon sprd_pmic_syscon

@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0
 #
-DEVICE_PATH := device/infinix/X6525
+DEVICE_PATH := device/infinix/X6528
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/base.mk)
@@ -18,13 +18,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/gsi_keys.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 
-# Inherit from RMX3261 device
-$(call inherit-product, device/infinix/X6525/device.mk)
+# Inherit from X6528 device
+$(call inherit-product, device/infinix/X6528/device.mk)
 
-PRODUCT_DEVICE := X6525
-PRODUCT_NAME := twrp_X6525
+PRODUCT_DEVICE := X6528
+PRODUCT_NAME := twrp_X6528
 PRODUCT_BRAND := infinix
-PRODUCT_MODEL := X6525
+PRODUCT_MODEL := X6528
 PRODUCT_MANUFACTURER := infinix
 
 PRODUCT_GMS_CLIENTID_BASE := android-infinix
